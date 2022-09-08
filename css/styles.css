@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+/*
+DM Sans
+Regular 400
+Medium 500
+Bold 700
+*/
+@media (max-width: 500px){
+    .thumbnail {
+    
+        height:125px;
+        margin-bottom: 8%;
+        width: 225px;
+    }
+    .blurb {
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 640px){
+    .thumbnail {
+    
+        height:200px;
+        margin-bottom: 8%;
+        
+        width: 360px;
+    }
+    .blurb {
+        width: 50%;
+    }
+}
+
+@media (min-width: 641px){
+    .thumbnail {
+    
+        height:250px;
+        margin-bottom: 8%;
+        
+        width: 450px;
+    }
+    .blurb {
+        width: 30%;
+    }
+}
+
+/*
+Github:
+https://github.com/logos 
+
+Linkedin:
+https://brand.linkedin.com/downloads
+
+Email:
+<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+*/
+
+/*
+Styles
+
+1. General Styles
+
+2. Navigation Styles
+*/
+body {
+    background-color: #F8F8F8;
+    color: #041520;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 100%;
+}
+h2{
+    line-height: 2.5rem;
+}
+#subheading {
+    font-size: .85rem;
+}
+p {
+    margin: 0;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: #3D7499;
+
+}
+/*Navigation Styles*/
+.navbar {
+    background-color: #C1D2DE; /*#B8CCD9; #A3BCCC; /*#E2EBF1;*/
+    padding: 0;
+}
+.nav-item {
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+.active{
+    text-decoration: line-through;
+}
+.nav-item:hover{
+    background-color: #E4ECF1;
+}
+
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+}
+
+
+
+.intro {
+    padding: 50px 0px 15px;
+}
+.blurb {
+    width: 30%;
+}
+hr {
+    width: 45%;
+    background-color: #041520;
+}
+.projects {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    max-width: 75%;
+}
+
+
+.icon {
+    margin: 1% 1%;
+    width: 3rem;
+    min-width: 25px;
+}
+
+[class $= "layer"]{
+    padding: 1% 3%; /*top/bot l/r*/
+
+}
+.top-layer{
+    background-color: #E4ECF1;
+    padding-top: 3%;
+}
+.mid-layer{
+    background-color: #D3DFE7;
+}
+.bot-layer{
+    background-color: #C1D2DE;
+}
+
+.about{
+    width: 40%;
+}
+.headshot{
+    margin: 1%;
+}
+
+/*Carousel Styles*/
+#carouselExampleIndicators {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.carousel{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform-style: preserve-3d;
+}
+.carousel-wrapper * {
+    box-sizing: border-box;
+  }
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display:block;
+    overflow: hidden;
+  }
+
+#carousel-fit-image{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.summary{
+    margin-top: 0;
+    max-width: 50%;
+    
+}
+.work{
+    margin-top: 2rem;
+}
+[id $= "visuals"]{
+    align-items: center;
+    display: block;
+}
+.hidden{
+    visibility: hidden;
+}
+
+
+.modal-subtitle{
+    line-height:1.6rem;
+}
+.modal-location{
+    color: #0415208f;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    line-height:1.1rem;
+}
+.modal-header{
+    padding-bottom:0;
+}
+.modal-body{
+    padding-top:0;
+    line-height: 2rem;
+}
+.modalnail{
+    height:300px;
+    margin-bottom: 8%;
+    
+    width: 540px;
+}
+.btn{
+    padding: .5rem 1.25rem;
+}
+.to-work{
+    color: #041520;
+    background-color: #C1D2DE;
+    border-color: #C1D2DE;
+}
